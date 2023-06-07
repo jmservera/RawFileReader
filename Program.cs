@@ -1129,7 +1129,7 @@ namespace RawFileReaderDotNetExample
                 ChromatogramTraceSettings settings = new ChromatogramTraceSettings(TraceType.BasePeak);
 
                 settings.MassRangeCount = 1;
-                settings.SetMassRange(0, new Range(0,rawFile.RunHeader.HighMass));
+                settings.SetMassRange(0, new ThermoFisher.CommonCore.Data.Business.Range(0,rawFile.RunHeader.HighMass));
 
                 // Get the chromatogram from the RAW file. 
                 try

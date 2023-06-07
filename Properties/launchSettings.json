@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RawFileReaderExample": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\juanserv\\Downloads\\Angiotensin_325-ETD.raw\""
+    }
+  }
+}
